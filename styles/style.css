@@ -13,6 +13,10 @@ body {
   padding: 2em;
 }
 
+body+div{
+  overflow: hidden;
+}
+
 img {
   padding: 1em;
   background-color: rgb(188, 188, 188, 0.6);
