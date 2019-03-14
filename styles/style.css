@@ -1,0 +1,85 @@
+html{
+  box-sizing: border-box;
+}
+
+*, 
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: avenir next, sans-serif;
+  padding: 2em;
+}
+
+body+div{
+  overflow: hidden;
+}
+
+img {
+  padding: 1em;
+  background-color: rgb(188, 188, 188, 0.6);
+}
+
+h1 {
+  color: #2d2d2d;
+  padding: 0.7em;
+  font-weight: normal;
+  font-size: 1.5em;
+  background-color: rgb(188, 188, 188, 0.6);
+  box-shadow: 0px 0px 33px -4px #000000;
+}
+
+/****** CLOCK STYLES ******/
+
+#clockdate {
+    background-color: rgb(188, 188, 188, 0.6);
+    padding: 1.8em;
+    max-width: 80%;
+    text-align:center;
+    margin:0 auto;
+    box-shadow: 0px 0px 33px -4px #000000;
+}
+
+#clock{
+    font-size: 3.5em;
+    text-shadow:0px 0px 1px #fff;
+    color:#2d2d2d;
+}
+
+#date {
+    padding: 0.3em;
+    font-size: 1.5em;
+    color: #2d2d2d;
+}
+
+/****** CLOCK STYLES ******/
+
+/************Mid**************/
+ @media only screen and (min-width: 601px){
+
+     body {
+
+     }
+}
+/**********End Mid************/
+/***********Large*************/
+ @media only screen and (min-width: 1024px) {
+
+  #clock>div {
+    background-color: rgb(188, 188, 188, 0.9);
+    padding: 5%;
+    border-radius: 5%;
+  }
+
+ }
+/*********End Large***********/
+/************XL**************/
+ @media only screen and (min-width: 1824px) {
+     
+     body {
+
+    }
+}
+/**********End XL************/
