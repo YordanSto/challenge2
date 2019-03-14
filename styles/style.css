@@ -24,7 +24,7 @@ h1 {
   font-weight: normal;
   font-size: 1.5em;
   background-color: rgb(188, 188, 188, 0.6);
-  box-shadow: 1px 1px 100px 1px #000000;
+  box-shadow: 0px 0px 33px -4px #000000;
 }
 
 /****** CLOCK STYLES ******/
@@ -35,7 +35,7 @@ h1 {
     max-width: 80%;
     text-align:center;
     margin:0 auto;
-    box-shadow: 1px 1px 100px 1px #000000;
+    box-shadow: 0px 0px 33px -4px #000000;
 }
 
 #clock{
@@ -63,6 +63,11 @@ h1 {
 /***********Large*************/
  @media only screen and (min-width: 1024px) {
 
+  #clock>div {
+    background-color: rgb(188, 188, 188, 0.9);
+    padding: 5%;
+    border-radius: 5%;
+  }
 
  }
 /*********End Large***********/
