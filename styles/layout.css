@@ -74,6 +74,7 @@ h1 {
         flex-flow: row;
         max-width: initial;
         max-width: 70%; 
+        margin-top: 1em;
         justify-content: space-around;
     }
 
